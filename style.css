@@ -15,6 +15,10 @@ section {
     padding-top: 1rem;
 }
 
+h1 h2 p {
+    font-family: 'quicksand', sans-serif;
+}
+
 #about #carouselExampleIndicators span {
     background-color: black;
 }
