@@ -31,9 +31,5 @@ $("[data-nav]").on("click", function (el) {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  AOS.init();
-});
-
 // AOS init
-AOS.init({ once: true });
+AOS.init();
