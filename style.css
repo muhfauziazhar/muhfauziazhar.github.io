@@ -1,5 +1,6 @@
 body {
     min-height: 3000px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .jumbotron {
@@ -13,10 +14,6 @@ body {
 
 section {
     padding-top: 1rem;
-}
-
-h1 h2 p {
-    font-family: 'Quicksand', sans-serif;
 }
 
 #about #carouselExampleIndicators span {
