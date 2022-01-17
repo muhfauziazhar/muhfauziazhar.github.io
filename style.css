@@ -12,62 +12,62 @@ section#navbar {
     background-color: transparent;
     z-index: 10;
     transition: all 0.4s ease;
-  }
-  section#navbar .container {
+}
+section#navbar .container {
     padding-top: 35px;
     padding-bottom: 35px;
     transition: all 0.4s ease;
-  }
-  section#navbar .container a {
+}
+section#navbar .container a {
     color: #fff;
-  }
-  section#navbar .container .logo * {
+}
+section#navbar .container .logo * {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1px;
-  }
-  section#navbar .container .open-navbar {
+}
+section#navbar .container .open-navbar {
     font-size: 20px !important;
-  }
-  section#navbar .container .nav .nav-item {
+}
+section#navbar .container .nav .nav-item {
     display: inline-block;
-  }
-  section#navbar .container .nav .nav-item:not(:last-child) {
+}
+section#navbar .container .nav .nav-item:not(:last-child) {
     margin-right: 50px;
-  }
-  section#navbar.scrolled {
+}
+section#navbar.scrolled {
     position: fixed;
     background-color: #4aa9bc;
     opacity: 0.8;
-  }
-  section#navbar.scrolled .container {
+}
+section#navbar.scrolled .container {
     padding-top: 15px;
     padding-bottom: 15px;
-  }
-  @media (max-width: 992px) {
-    section#navbar {
+}
+@media (max-width: 992px) {
+  section#navbar {
       background-color: #1e6f80;
-    }
-    section#navbar .container {
+  }
+  section#navbar .container {
       overflow: hidden;
       padding-top: 15px;
       padding-bottom: 15px;
-    }
-    section#navbar .container .nav {
+  }
+  section#navbar .container .nav {
       height: 0;
       transition: height 0.4s ease;
-    }
-    section#navbar .container .nav .nav-item {
+  }
+  section#navbar .container .nav .nav-item {
       display: block;
       width: 100%;
       margin: 10px 0;
-    }
-    section#navbar .container .nav .nav-item:first-child {
+  }
+  section#navbar .container .nav .nav-item:first-child {
       margin-top: 20px;
-    }
-    section#navbar .container .nav.opened {
+  }
+  section#navbar .container .nav.opened {
       height: 260px;
-    }
+  }
 }
 
 .jumbotron {
