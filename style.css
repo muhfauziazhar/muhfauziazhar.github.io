@@ -15,6 +15,6 @@ section {
     padding-top: 1rem;
 }
 
-#about #carouselExampleIndicators button {
+#about #carouselExampleIndicators button span {
     background-color: black;
 }
