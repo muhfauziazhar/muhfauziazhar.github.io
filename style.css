@@ -14,3 +14,7 @@ body {
 section {
     padding-top: 1rem;
 }
+
+#about #carouselExampleIndicators button {
+    background-color: black;
+}
