@@ -3,6 +3,73 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+section#navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+    transition: all 0.4s ease;
+  }
+  section#navbar .container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    transition: all 0.4s ease;
+  }
+  section#navbar .container a {
+    color: #fff;
+  }
+  section#navbar .container .logo * {
+    font-family: "Vibur", cursive;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  section#navbar .container .open-navbar {
+    font-size: 20px !important;
+  }
+  section#navbar .container .nav .nav-item {
+    display: inline-block;
+  }
+  section#navbar .container .nav .nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  section#navbar.scrolled {
+    position: fixed;
+    background-color: #4aa9bc;
+    opacity: 0.8;
+  }
+  section#navbar.scrolled .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  @media (max-width: 992px) {
+    section#navbar {
+      background-color: #4aa9bc;
+    }
+    section#navbar .container {
+      overflow: hidden;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    section#navbar .container .nav {
+      height: 0;
+      transition: height 0.4s ease;
+    }
+    section#navbar .container .nav .nav-item {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+    }
+    section#navbar .container .nav .nav-item:first-child {
+      margin-top: 20px;
+    }
+    section#navbar .container .nav.opened {
+      height: 260px;
+    }
+}
+
 .jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
