@@ -21,7 +21,6 @@ section#navbar {
     color: #fff;
   }
   section#navbar .container .logo * {
-    font-family: "Vibur", cursive;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -84,5 +83,5 @@ section {
 }
 
 #about #carouselExampleIndicators span {
-    background-color: black;
+    background-color: rgb(119, 119, 119);
 }
